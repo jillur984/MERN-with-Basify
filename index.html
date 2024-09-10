@@ -58,16 +58,20 @@
                Name:
             </label>
             <input type="text" placeholder="Enter Your Name" required><br/><br/>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Your Email"><br/><br/>
             <label>
-                Email:
-            </label>
-            <input type="email" placeholder="Enter Your Email" required><br/><br/>
-            <label>
-            <label>
-               Password: 
-            </label>
-            <input type="password" placeholder="Enter Your password" minlength="8" required><br/><br/>
-            <label>
+                Password: 
+             </label>
+             <input type="password" placeholder="Enter Your password" minlength="8" required><br/><br/>
+           
+            <label>Gender:</label>
+            <label for="gender-male">Male</label>
+            <input type="checkbox" id="gender-male" name="gender" value="male"/>
+
+            <label for="gender-female">Female</label>
+            <input type="checkbox" id="gender-female" name="gender" value="female"/><br/><br/>
+            
             <button type="submit">Submit</button>
         
      </form>
