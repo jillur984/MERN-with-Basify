@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Pricing Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Sono', sans-serif;
+    }
+
+    @media (max-width: 680px) {
+      .pricing-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      .pricing-plan{
+        width: 100%;
+        max-width: 200px;
+      }
+    }
+ .pricing-container{
+  display: flex;
+  gap: 60px;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+ }
+ .pricing-plan{
+  border: 2px #dddd;
+  margin: auto;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(158, 147, 147, 0.4);
+ }
+ .plan-button{
+  background-color: yellow;
+  border: none;
+  padding:6px;
+  margin-bottom: 20px;
+  
+ }
+ .plan-title, .plan-price, .plan-features, .plan-button {
+    flex-grow: 1; 
+}
+.plan-title,.plan-price{
+  font-weight: bold;
+}
+.plan-features{
+  list-style: none;
+  padding: 0;
+  font: normal;
+}
+
+  </style>
+</head>
+
+<body>
+  <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">Basic</div>
+      <div class="plan-price">৳299/month</div>
+      <ul class="plan-features">
+        <li>✅ 10GB Storage</li>
+        <li>✅ 1 User</li>
+        <li>🚫 Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Standard</div>
+      <div class="plan-price">৳1599/month</div>
+      <ul class="plan-features">
+        <li>✅ 50GB Storage</li>
+        <li>✅ 5 Users</li>
+        <li>✅ Phone &amp; Email Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Premium</div>
+      <div class="plan-price">৳999/month</div>
+      <ul class="plan-features">
+        <li>✅ 100GB Storage</li>
+        <li>✅ 10 Users</li>
+        <li>✅ 24/7 Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+  </div>
+
+</body>
+
+</html>

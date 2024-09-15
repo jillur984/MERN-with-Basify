@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- here i can style internal css i no need any other css folder for design -->
+
+<style>
+/* here i use class selector by . for style in css */
+.box-model{
+    margin: 20px;
+    padding: 30px;
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+}
+</style>
+    <!-- css link for external css design -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- CSS box model example.
+    css box model have margin outer space in the element. padding inner space of the element. border is element border. height and width both are height and width of the content.Content is inside text and picture. -->
+    <div class="box-model"> 
+        <!-- here i style p tag by inline css & helllo developer is a content of box model -->
+     <p style="text-align:center; color: red;">Hello Developer</p> 
+    </div>
+    
+    <!-- select by Id for style text in style.css file -->
+    <h2 id="id-selector">Md. Jilllur Rahman. I am from Bangladesh.</h2>
+    <!-- style to select direct tag name -->
+     <h3>Style text by direct tag select</h3>
+
+     <!-- here i give example for decendent selector if we catch nested tag and then design  -->
+      <div>
+        <h5>Hello i am Jillur Rahman. I am from Mymensing Bangladesh. It is a Division of Bangladesh.</h5>
+      </div>
+      <!-- This is Attribute Tag -->
+      <input type="text" name="" placeholder="Enter Your Name">
+</body>
+</html>
