@@ -1,8 +1,8 @@
-# what is Javascript ?
+# What is Javascript ?
 
 JavaScript is a scripting programming language used primary for web development. While HTML and CSS handle the structure and styling of the web page (UI), JavaScript allows for dynamic interactions and manipulation of these elements. If we want to interact with the content, attributes, and styles of the web page (like handling user inputs, animations, or dynamically updating data), we use JavaScript.
 
-## what is variable
+## What is variable
 
 Variable is like a storebox where we store data. suppose when we store multiple store data but if have no name or someting unique i mean looks like same that time we confuse about this and we are not able to find our desire data. If i have variable i can given a unique name that is very helpfull for me find data. When need i call that and retrive also all time.
 
@@ -16,7 +16,7 @@ Example i given below:
  here name,age,country all are variable. Sometimes we need to store multiple variable that time we can use Array. If need more that time can use Object. In array we can store all String but in Object we are store multiple type key,value,pair.
 
 
- ## data types in JS:
+ ## Data types in JS:
 
  There are 2 types data types:
  1. Primitive Data Type-String, Number, Boolean, Undefined, Null, Symbol, BigInt
@@ -101,7 +101,7 @@ console.log(!e); // false (negation of true)
 console.log(!false); // true (negation of false)
 
 
-# conditional ternary operator
+# Conditional ternary operator
 
 The ternary operator in JavaScript is a shorthand for if...else statements. It has the following syntax:
 
