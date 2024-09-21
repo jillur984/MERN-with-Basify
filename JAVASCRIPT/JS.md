@@ -2,7 +2,7 @@
 
 JavaScript is a scripting programming language used primary for web development. While HTML and CSS handle the structure and styling of the web page (UI), JavaScript allows for dynamic interactions and manipulation of these elements. If we want to interact with the content, attributes, and styles of the web page (like handling user inputs, animations, or dynamically updating data), we use JavaScript.
 
-## What is variable
+# What is variable
 
 Variable is like a storebox where we store data. suppose when we store multiple store data but if have no name or someting unique i mean looks like same that time we confuse about this and we are not able to find our desire data. If i have variable i can given a unique name that is very helpfull for me find data. When need i call that and retrive also all time.
 
@@ -16,7 +16,7 @@ Example i given below:
  here name,age,country all are variable. Sometimes we need to store multiple variable that time we can use Array. If need more that time can use Object. In array we can store all String but in Object we are store multiple type key,value,pair.
 
 
- ## Data types in JS:
+ # Data types in JS:
 
  There are 2 types data types:
  1. Primitive Data Type-String, Number, Boolean, Undefined, Null, Symbol, BigInt
@@ -27,7 +27,7 @@ Example i given below:
  But Non Primitive we are keep by reference in heap Memory and all are mutable. 
 
 
-## Start Day-2 here
+# Start Day-2 here
 
 # Arithmatic Operator
 
@@ -36,13 +36,13 @@ In JavaScript, arithmetic operators are used to perform basic mathematical opera
 example-
 let sum = 5 + 3;  // Result: 8
 
-## Assignment Operator
+# Assignment Operator
 
 In JavaScript, assignment operators are used to assign values to variables. The most basic assignment operator is the equal sign (=), but there are several others that perform operations and then assign the result to the variable.
 
 Example-const x = 10;  // x is assigned the value 10
 
-## Comparision Operator
+# Comparision Operator
 
 There are many comparison operator in js
 
@@ -69,7 +69,7 @@ console.log(10 >= 10);      // true
 console.log(5 < 10);        // true
 console.log(5 <= 5);        // true
 
-## Logical opeator
+# Logical opeator
 
 in Programming we most use and,or not.
 
