@@ -2,7 +2,7 @@
 
 JavaScript is a scripting programming language used primary for web development. While HTML and CSS handle the structure and styling of the web page (UI), JavaScript allows for dynamic interactions and manipulation of these elements. If we want to interact with the content, attributes, and styles of the web page (like handling user inputs, animations, or dynamically updating data), we use JavaScript.
 
-# What is variable
+# What is variable ?
 
 Variable is like a storebox where we store data. suppose when we store multiple store data but if have no name or someting unique i mean looks like same that time we confuse about this and we are not able to find our desire data. If i have variable i can given a unique name that is very helpfull for me find data. When need i call that and retrive also all time.
 
@@ -16,7 +16,7 @@ Example i given below:
  here name,age,country all are variable. Sometimes we need to store multiple variable that time we can use Array. If need more that time can use Object. In array we can store all String but in Object we are store multiple type key,value,pair.
 
 
- # Data types in JS:
+ # Data types in JS ?
 
  There are 2 types data types:
  1. Primitive Data Type-String, Number, Boolean, Undefined, Null, Symbol, BigInt
@@ -27,22 +27,22 @@ Example i given below:
  But Non Primitive we are keep by reference in heap Memory and all are mutable. 
 
 
-# Start Day-2 here
+# ..................Start Day-2 here .............
 
-# Arithmatic Operator
+# Arithmatic Operator ?
 
 In JavaScript, arithmetic operators are used to perform basic mathematical operations on numbers. Here are the common arithmetic operators.
 
 example-
 let sum = 5 + 3;  // Result: 8
 
-# Assignment Operator
+# Assignment Operator ?
 
 In JavaScript, assignment operators are used to assign values to variables. The most basic assignment operator is the equal sign (=), but there are several others that perform operations and then assign the result to the variable.
 
 Example-const x = 10;  // x is assigned the value 10
 
-# Comparision Operator
+# Comparision Operator ?
 
 There are many comparison operator in js
 
@@ -69,11 +69,11 @@ console.log(10 >= 10);      // true
 console.log(5 < 10);        // true
 console.log(5 <= 5);        // true
 
-# Logical opeator
+# Logical opeator ?
 
 in Programming we most use and,or not.
 
-# And Operator
+# And Operator ?
 The AND operator returns true if both operands are true; otherwise, it returns false.
 let a = true;
 let b = false;
@@ -81,7 +81,7 @@ let b = false;
 console.log(a && b); // false (both must be true)
 console.log(a && true); // true (first operand is true)
 
-# Or Operator
+# Or Operator ?
 
 The OR operator returns true if at least one of the operands is true; it returns false only if both operands are false.
 
@@ -91,7 +91,7 @@ let d = true;
 console.log(c || d); // true (at least one operand is true)
 console.log(false || false); // false (both operands are false)
 
-# Not Opearator
+# Not Opearator ?
 
 The NOT operator negates the boolean value of the operand. It returns true if the operand is false and false if the operand is true.
 
@@ -101,7 +101,7 @@ console.log(!e); // false (negation of true)
 console.log(!false); // true (negation of false)
 
 
-# Conditional ternary operator
+# Conditional ternary operator ?
 
 The ternary operator in JavaScript is a shorthand for if...else statements. It has the following syntax:
 
@@ -110,11 +110,11 @@ let canVote = (age >= 18) ? "Yes, can vote" : "No, too young"; here ? is ternary
 
 console.log(canVote); // "Yes, can vote"
 
-# Operator precednce
+# Operator precednce ?
 
 In JavaScript, operator precedence determines the order in which operations are evaluated when an expression has more than one operator. Operators with higher precedence are evaluated before operators with lower precedence
 
-# Operator Precedence Table
+# Operator Precedence Table ?
 
 
 Which Operator need to work first priyority is called operator precedence
