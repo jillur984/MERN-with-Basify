@@ -119,4 +119,20 @@ In JavaScript, operator precedence determines the order in which operations are 
 
 Which Operator need to work first priyority is called operator precedence
 
-in JavaScript, operator precedence dictates the order of evaluation in expressions. Parentheses () have the highest precedence, followed by postfix increment and decrement operators ++ and --. Unary operators (++, --, +, -, ~, !) are next, followed by exponentiation **. Multiplication, division, and modulus (*, /, %) are evaluated from left to right, followed by addition and subtraction (+, -). Bitwise shift operators (<<, >>, >>>) come next, then comparison operators (<, <=, >, >=) and equality operators (==, !=, ===, !==). Bitwise operations include AND &, XOR ^, and OR |. Logical AND && and OR || evaluate boolean expressions, while the ternary operator ?: offers conditional evaluations. Assignment operators = and compound assignments (+=, -=, *=, /=, %=) assign values, and the comma operator , evaluates expressions from left to right but returns the last value. Parentheses can clarify the desired order of operations.
+In JavaScript, operator precedence dictates the order of evaluation in expressions.
+
+Parentheses () have the highest precedence, followed by postfix increment and decrement operators ++ and --.
+
+Unary operators (++, --, +, -, ~, !) are next, followed by exponentiation **.
+
+Multiplication, division, and modulus (*, /, %) are evaluated from left to right, followed by addition and subtraction (+, -).
+
+Bitwise shift operators (<<, >>, >>>) come next, then comparison operators (<, <=, >, >=) and equality operators (==, !=, ===, !==).
+
+Bitwise operations include AND &, XOR ^, and OR |.
+
+Logical AND && and OR || evaluate boolean expressions, while the ternary operator ?: offers conditional evaluations.
+
+Assignment operators = and compound assignments (+=, -=, *=, /=, %=) assign values, and the comma operator , evaluates expressions from left to right but returns the last value.
+
+Parentheses can clarify the desired order of operations.
